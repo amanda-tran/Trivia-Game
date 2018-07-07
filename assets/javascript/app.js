@@ -12,7 +12,7 @@ $("document").ready(function () {
     $("#results").hide();
 
 
-    startbutton.onclick = function() {
+    startbutton.onclick = function run() {
         clearInterval(intervalId);
         intervalId = setInterval(decrement, 1000);
         $("#questions").show();
@@ -36,7 +36,7 @@ $("document").ready(function () {
         checkanswers();
 
     }
-    startbutton.onclick = function() {
+    startbutton.onclick = function run() {
         clearInterval(intervalId);
         intervalId = setInterval(decrement, 1000);
         $("#questions").show();
