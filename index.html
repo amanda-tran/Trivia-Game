@@ -1,55 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Harry Potter Trivia Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Trivia Game</title>
 </head>
-
 <body>
-   
-<div class="maincontent">
+  <div class="container">
     <div class="intro">
-        <h1>Harry Potter Trivia!</h1>
-        <button id="start">Start</button>
+      <h1>Welcome to the Harry Potter Trivia Game.</h1>
+      <p class="lead">Click start to begin...</p>
+      <button id="start">Start</button>
     </div>
     <div class="game">
-        <div class="score">
-            <ul>
-                <li class="correct">Correct: <span></span></li>
-                <li class="wrong">Wrong: <span></span></li>
-                <li class="questions-left">Questions Left: <span></span></li>
-                <li class="time-left">Time Left: <span></span></li>
-            </ul>
-        </div>
-        <div id="questions">
-            
-        </div>
+      <div class="score">
+        <ul>
+          <li class="correct">Correct: <span>0</span></li>
+          <li class="incorrect">Incorrect: <span>0</span></li>
+          <li class="questions-left">Questions Left: <span>0</span></li>
+          <li class="time-left">Time Left: <span>0</span></li>
+        </ul>
+      </div>
+      <div id="question"></div>
     </div>
     <div class="results">
-
+      <h3 class="correct">You answered <span></span> questions correctly.</h3>
+      <h3 class="incorrect">You answered <span></span> questions incorrectly.</h3>
+      <p class="lead">Click restart to play again</p>
+      <button id="restart">Restart</button>
     </div>
-</div>
 
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
-<script src="./assets/javascript/app.js"></script>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>

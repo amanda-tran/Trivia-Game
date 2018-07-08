@@ -1,0 +1,131 @@
+body {
+  background-image: url('../img/deer.jpg');
+  background-repeat: repeat;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #FFF;
+  min-height: 100%;
+  border-radius: 5px;
+}
+
+.intro h1 { 
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+}
+
+#start {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 50px;
+  font-size: 28px;
+  border: 3px solid #3aad98;
+  background: #FFF;
+  border-radius: 10px;
+  color: #3aad98;
+}
+
+#start:hover {
+  background: #3aad98;
+  color: #fff;
+}
+
+#restart {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 50px;
+  font-size: 28px;
+  border: 3px solid #3aad98;
+  background: #FFF;
+  border-radius: 10px;
+  color: #3aad98;
+}
+
+#restart:hover {
+  background: #3aad98;
+  color: #fff;
+}
+
+.intro {
+  display: show;
+}
+
+.game {
+  display: none;
+}
+
+.results {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.correct {
+  color: #57d0a4; 
+}
+
+.incorrect {
+  color: #de2669;
+}
+
+.questions-left {
+  color: #adadad;
+}
+
+.time-left {
+  float: right;
+}
+
+.option {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-top: 10px; 
+}
+
+button {
+  border: 3px solid #bdbdbd;
+  background-color: #fff;
+}
+
+.option:hover {
+  background-color: #57d0a4;
+  color: #fff;
+  border-color: #57d0a4;
+}
+
+.option.correct {
+  background-color: #57d0a4;
+  color: #fff;
+  border-color: #57d0a4;
+}
+
+.option.incorrect {
+  background: #de2669;
+  color: #fff;
+  border-color: #de2669;
+}
+
+h3.correct {
+  text-align: center;
+}
+
+h3.incorrect {
+  text-align: center;
+}
