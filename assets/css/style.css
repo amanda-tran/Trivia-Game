@@ -28,6 +28,30 @@ h2 {
     border-width: 5px;
 }
 
-#results {
-    text-align: center;
+.results {
+    display: none;
+}
+
+#start {
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.game {
+    display: none;
+}
+
+.option.correct {
+    background: #3fff9F;
+}
+
+.option.wrong {
+    background: #f75050;
+}
+
+li {
+    display: inline;
+    margin-right: 5px;
 }
